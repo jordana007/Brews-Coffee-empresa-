@@ -1,0 +1,38 @@
+body {
+  background-color: #BC9157;
+}
+
+h1{
+  color: #523C20;
+  text-align: center;
+}
+
+h2{
+  color: #523C20;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-align: center;
+}
+
+#gato {
+  width: 700px;
+  height: 500px;
+  border: 20px inset #523C20;
+  padding: 0;
+  margin: 25px;
+  justify-content: center;
+  
+}
+
+#cafe {
+  display: block;
+  width: 250px;
+  height: 260px;
+  border: 20px inset #523C20;
+  padding: 0;
+  margin: 25px;
+  justify-content: center;
+}
