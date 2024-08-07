@@ -1,0 +1,61 @@
+.depoimentos {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #3E3E3E;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.depoimentos h2 {
+  color: #BC9157;
+  margin-bottom: 20px;
+}
+
+.depoimento {
+  background-color: #4A4A4A;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.depoimento-texto {
+  font-size: 18px;
+  color: #F2E7C9;
+  margin: 0;
+}
+
+.depoimento-autor {
+  font-size: 16px;
+  color: #BC9157;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .depoimento {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .depoimento-texto, .depoimento-autor {
+    font-size: 16px;
+  }
+}
+
+.botao-voltar {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #F2E7C9;
+  background-color: #BC9157;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #BC9157;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+}
+
+.botao-voltar:hover {
+  background-color: #F2E7C9;
+  color: #BC9157;
+}

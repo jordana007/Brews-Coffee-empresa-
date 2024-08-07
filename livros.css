@@ -1,0 +1,136 @@
+body {
+  background-color: #2E2E2E;
+  color: #F2E7C9;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+.tituloprinc {
+  padding: 20px;
+  text-align: center;
+  color: black;
+  background: linear-gradient(10deg, #BC9157, #F2E7C9);
+  border: #BC9157 solid 3px;
+  border-radius: 30px;
+  margin: 0;
+}
+
+h2, h3 {
+  color: #BC9157;
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+.livros {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+  list-style: none;
+}
+
+.livros li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  border: 2px solid #BC9157;
+  border-radius: 10px;
+  background-color: #3E3E3E;
+}
+
+.livros img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.livros img:hover {
+  transform: scale(1.05);
+}
+
+.livro-titulo {
+  font-size: 20px;
+  color: #F2E7C9;
+  margin: 10px 0 5px; 
+}
+
+.livro-desc {
+  font-size: 16px;
+  color: #F2E7C9;
+  margin-bottom: 10px;
+}
+
+.livro-preco {
+  font-size: 22px;
+  font-weight: bold;
+  color: #BC9157;
+}
+
+
+@media (max-width: 768px) {
+  .livros li {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.marca-dagua {
+  background-color: #000000;
+  color: #F2E7C9;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.marca-dagua p {
+  margin: 10px 0;
+}
+
+.marca-dagua .redes-sociais {
+  margin-top: 10px;
+}
+
+.marca-dagua a {
+  color: #F2E7C9;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.marca-dagua a:hover {
+  text-decoration: underline;
+}
+
+
+body {
+  margin-bottom: 150px;
+}
+
+.botao-voltar {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #F2E7C9;
+  background-color: #BC9157;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #BC9157;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botao-voltar:hover {
+  background-color: #F2E7C9;
+  color: #BC9157;
+}

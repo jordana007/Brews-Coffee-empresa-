@@ -1,0 +1,86 @@
+body {
+  background-color: #2E2E2E;
+  color: #F2E7C9;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tituloprinc {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #BC9157;
+  text-align: center;
+}
+
+.eventos, .avisos {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.eventos li, .avisos li {
+  background-color: #3E3E3E;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.eventos h3, .avisos h3 {
+  margin: 10px 0;
+  color: #BC9157;
+}
+
+.eventos-desc, .avisos-desc {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.eventos-data, .eventos-hora {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #F2E7C9;
+}
+
+.botao-voltar {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #F2E7C9;
+  background-color: #BC9157;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #BC9157;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botao-voltar:hover {
+  background-color: #F2E7C9;
+  color: #BC9157;
+}
+
+.marca-dagua {
+  background-color: #000000;
+  color: #F2E7C9;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.marca-dagua p {
+  margin: 10px 0;
+}
+
+.redes-sociais a {
+  color: #BC9157;
+  text-decoration: none;
+}
+
+.redes-sociais a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,101 @@
+body {
+  background-color: #2E2E2E;
+  color: #F2E7C9;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 150px; /* Ajuste para evitar sobreposição com o rodapé */
+}
+
+h2, h3 {
+  color: #BC9157;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+  list-style: none; /* Remove os marcadores padrão da lista */
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 15px;
+  box-sizing: border-box;
+  border: 2px solid #BC9157;
+  border-radius: 10px;
+  background-color: #3E3E3E;
+}
+
+.produtos-desc {
+  font-size: 18px;
+  color: #F2E7C9;
+}
+
+.produtos-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: #BC9157;
+}
+
+.produtos img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.produtos img:hover {
+  transform: scale(1.1);
+}
+
+.botao-voltar {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #F2E7C9;
+  background-color: #BC9157;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #BC9157;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botao-voltar:hover {
+  background-color: #F2E7C9;
+  color: #BC9157;
+}
+
+.marca-dagua {
+  background-color: #000000;
+  color: #F2E7C9;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.marca-dagua p {
+  margin: 10px 0;
+}
+
+.marca-dagua .redes-sociais {
+  margin-top: 10px;
+}
+
+.marca-dagua a {
+  color: #F2E7C9;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.marca-dagua a:hover {
+  text-decoration: underline;
+}

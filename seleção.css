@@ -1,0 +1,63 @@
+body {
+  background-color: #2E2E2E;
+  color: #F2E7C9;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 0;
+}
+
+.tituloprinc {
+  padding: 20px;
+  text-align: center;
+  color: black;
+  background: linear-gradient(10deg, #BC9157, #F2E7C9);
+  border: #BC9157 solid 3px;
+  border-radius: 30px;
+  margin: 20px 0; 
+}
+
+h2 {
+  color: #BC9157;
+  margin-top: 20px;
+}
+
+.selecao {
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.selecao-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #F2E7C9;
+  background-color: #BC9157;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #BC9157;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 10px;
+}
+
+.selecao-btn:hover {
+  background-color: #F2E7C9;
+  color: #BC9157;
+}
+
+.botao-voltar {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #F2E7C9;
+  background-color: #BC9157;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #BC9157;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+}
+
+.botao-voltar:hover {
+  background-color: #F2E7C9;
+  color: #BC9157;
+}
